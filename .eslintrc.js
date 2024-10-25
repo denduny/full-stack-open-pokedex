@@ -3,6 +3,7 @@ module.exports = {
     "browser": true,
     "es6": true,
     "jest/globals": true
+    "node": true
   },
   "extends": [
     "eslint:recommended",
@@ -19,6 +20,8 @@ module.exports = {
     "react", "jest"
   ],
   "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off",
     "indent": [
       "error",
         2
